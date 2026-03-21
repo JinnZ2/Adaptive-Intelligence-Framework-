@@ -90,12 +90,39 @@ No test infrastructure exists yet. The file `tribal/tests/test_detectors.py` is 
 - **ATBM middleware pattern:** `[Model Output] → [ATBM Filter] → [User Output]`
 - **Substrate independence:** Intelligence formalized without assuming any particular physical substrate
 
+## Running the Examples
+
+The `examples/` directory contains working Python implementations of core framework components. No external dependencies required — all use the standard library only.
+
+```bash
+# ΔX Consistency Test — detects narrative vs. operational authority claims
+python examples/delta_x_consistency.py
+
+# ATBM Detectors — boundary-lock, narrative-field, empathy topology analysis
+python examples/atbm_detectors.py
+
+# UAI Substrate Simulation — same equation across human/plant/mycelial/crystal
+python examples/universal_adaptive_intelligence.py
+```
+
+### `examples/delta_x_consistency.py`
+Implements the full ΔX test from `DeltaX.md`. Includes two contrasting examples:
+- **CEO merger claim** → NDS ~0.99 (narrative — 81% of work done by auxiliary nodes)
+- **Indigenous elder survival knowledge** → NDS ~0.19 (dynamics-supported — the elder carries the work)
+
+### `examples/atbm_detectors.py`
+Reference implementation of the three ATBM detection components (BLD, NFC, ETA) using keyword-based heuristics. Tests four text samples showing the detectors correctly flag tribal framing from both blue-zone and orange-zone while passing boundary-neutral and indigenous knowledge texts.
+
+### `examples/universal_adaptive_intelligence.py`
+Simulates the core UAI equation across four substrates (human elder, plant, mycelial network, crystal), demonstrating structural isomorphism — identical mathematical dynamics producing adaptive intelligence regardless of physical medium.
+
 ## Implementation Notes
 
 If contributing code to implement the ATBM:
 
 - Start from `tribal/ATBS-module.md` for pseudocode and component specs
 - Use `tribal/tests/001.md` and `002.md` as example transformations
-- Expected dependencies: NLP/ML libraries (transformers, sentence-transformers, scikit-learn)
+- The `examples/` directory provides working reference implementations to build on
+- Expected dependencies for production: NLP/ML libraries (transformers, sentence-transformers, scikit-learn)
 - Modular component design — detectors can be swapped independently
 - Threshold tuning parameters are documented in the specification
