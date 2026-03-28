@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adaptive-intelligence-framework"
+version = "0.1.0"
+description = "Substrate-independent adaptive intelligence framework with tribal-empathy bias detection"
+license = "MIT"
+requires-python = ">=3.9"
+dependencies = []
+
+[project.optional-dependencies]
+nlp = ["transformers", "sentence-transformers", "scikit-learn"]
+
+[project.scripts]
+aif = "aif.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,5 @@
+
+[nlp]
+transformers
+sentence-transformers
+scikit-learn

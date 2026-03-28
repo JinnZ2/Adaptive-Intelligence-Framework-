@@ -1,0 +1,12 @@
+Metadata-Version: 2.4
+Name: adaptive-intelligence-framework
+Version: 0.1.0
+Summary: Substrate-independent adaptive intelligence framework with tribal-empathy bias detection
+License-Expression: MIT
+Requires-Python: >=3.9
+License-File: LICENSE
+Provides-Extra: nlp
+Requires-Dist: transformers; extra == "nlp"
+Requires-Dist: sentence-transformers; extra == "nlp"
+Requires-Dist: scikit-learn; extra == "nlp"
+Dynamic: license-file
