@@ -19,6 +19,9 @@
 ├── Orange-zone.md                      # AI bias against survival-adapted populations
 ├── Archetype.md                        # Unhealthy Father archetype analysis in AI
 ├── Archetype-decoupling.md             # Mother/Father dissociation failures in AI safety
+├── fieldlink.json                      # Hub discovery manifest (Rosetta-Shape-Core compatible)
+├── integrations/
+│   └── rosetta-shape-core.md           # Integration map to Rosetta-Shape-Core hub
 └── tribal/                             # Anti-Tribal Bias Module (ATBM)
     ├── README.md                       # ATBM overview
     ├── ATBS.md                         # System architecture overview
@@ -126,3 +129,18 @@ If contributing code to implement the ATBM:
 - Expected dependencies for production: NLP/ML libraries (transformers, sentence-transformers, scikit-learn)
 - Modular component design — detectors can be swapped independently
 - Threshold tuning parameters are documented in the specification
+
+## Integrations
+
+AIF is fully standalone but designed to be discoverable by other intelligence-modeling systems.
+
+### Rosetta-Shape-Core Hub
+
+The `fieldlink.json` in the repo root follows [Rosetta-Shape-Core](https://github.com/JinnZ2/Rosetta-Shape-Core)'s hub convention, enabling automatic discovery. See `integrations/rosetta-shape-core.md` for the full component mapping:
+
+- **UAI → Living Intelligence Bridge** (67 substrate instances for testing UAI equations)
+- **ΔX → TAF Wiring Bridge** (shared "measurement over narrative" axiom)
+- **ATBM → Truth Sensor Bridge** (32+ sensors as upstream signal sources)
+- **Archetypes → Defense Protocol** (emotion-defense corruption pairs)
+
+No RSC dependencies are required. The integration map exists so any AI navigating either system can wire them together mechanically.

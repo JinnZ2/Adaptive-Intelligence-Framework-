@@ -1,0 +1,52 @@
+{
+  "name": "Adaptive-Intelligence-Framework",
+  "version": "1.0",
+  "role": "Theoretical mathematics framework for substrate-independent adaptive intelligence and tribal-empathy bias detection",
+  "license": "MIT",
+  "modules": {
+    "uai": {
+      "path": "Universal-Adaptive_Intelligence.md",
+      "description": "Core mathematical framework — formalizes intelligence as substrate-independent information processing",
+      "provides": ["substrate_independence", "adaptive_capacity", "information_processing"]
+    },
+    "delta_x": {
+      "path": "DeltaX.md",
+      "description": "Empirical consistency test — detects narrative vs. operational authority claims",
+      "provides": ["nds_score", "narrative_detection", "authority_validation"]
+    },
+    "atbm": {
+      "path": "tribal/ATBS-module.md",
+      "description": "Anti-Tribal Bias Module — middleware for detecting and mitigating tribal-empathy bias",
+      "provides": ["boundary_lock_detection", "narrative_field_classification", "empathy_topology_analysis"]
+    },
+    "archetype": {
+      "path": "Archetype.md",
+      "description": "Archetypal dysfunction analysis in AI systems",
+      "provides": ["archetype_detection", "dissociation_analysis"]
+    },
+    "examples": {
+      "path": "examples/",
+      "description": "Working Python reference implementations (standard library only)",
+      "provides": ["delta_x_implementation", "atbm_detectors", "uai_simulation"]
+    }
+  },
+  "integration_map": "integrations/rosetta-shape-core.md",
+  "hub_compatibility": {
+    "rosetta-shape-core": {
+      "repo": "JinnZ2/Rosetta-Shape-Core",
+      "bridge_id": "BRIDGE.ADAPTIVE_INTELLIGENCE",
+      "shape_assignments": {
+        "uai": "ICOSA",
+        "delta_x": "DODECA",
+        "atbm": "OCTA",
+        "archetype": "CUBE",
+        "institutional_dynamics": "TETRA"
+      }
+    }
+  },
+  "constraints": {
+    "independence": "This repository operates fully standalone. No external dependencies required.",
+    "ethics": "Framework excludes weaponization, surveillance, manipulation, and deception applications.",
+    "axiom": "Intelligence is substrate-independent. Measurement supersedes narrative."
+  }
+}
