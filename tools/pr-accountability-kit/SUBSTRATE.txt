@@ -1,0 +1,16 @@
+# Copy to SUBSTRATE.txt. The project declares what it is actually coupled to.
+# Not metrics. Not mission statements. Physical reality + knowledge + feedback.
+# Readable, falsifiable, carried with the knowledge when the platform dies.
+
+physical:
+# where it runs, what powers it, what it's made of, what it costs to keep alive
+-
+knowledge:
+# what it learns from / depends on to stay useful (the diverse frames)
+-
+feedback:
+# what tells it it's working -- real consequence, not quarterly metrics
+-
+constraint:
+# external knowledge / limits that force adaptation (what it can't generate itself)
+-
