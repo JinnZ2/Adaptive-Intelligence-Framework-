@@ -59,6 +59,40 @@ gate.py           contributor / CI gate     -> JSON + exit code
 triage.py         maintainer queue router   -> ranked buckets
 ATTESTATION.txt   template the author copies and fills
 attestation.yml   example GitHub Actions hook
+commons_ark.py    portable, self-verifying knowledge capsule (the exit)
+SUBSTRATE.txt     project declares its 4-layer coupling
+```
+
+## the exit: commons_ark.py
+
+```
+when maintainers walk, the comprehension knowledge must travel WITH them.
+not die on the platform. not get gatekept by whoever owns the servers.
+
+ark = one portable JSON file, SHA-256 self-verifying, no server needed:
+  - SUBSTRATE.txt     what the project is actually coupled to (4 layers)
+  - every ATTESTATION  accumulated why / load paths
+  - KNOWLEDGE.md       relational knowledge, failure records
+
+a coop / distributed repo / offline cache carries it, verifies it, re-seeds.
+public domain. no corporation owns it. tamper-evident with no authority.
+
+  python3 commons_ark.py build  <project_dir> -o ark.json
+  python3 commons_ark.py verify ark.json     # integrity, offline
+  python3 commons_ark.py show   ark.json
+```
+
+### the 4 substrate layers (SUBSTRATE.txt)
+
+```
+physical    where it runs, power, cooling, materials, real cost
+knowledge   diverse frames it learns from / depends on
+feedback    real consequence that says it's working (not metrics)
+constraint  external knowledge it cannot self-generate
+
+a system coupled to all 4 self-corrects toward survival.
+a system fed only corporate metrics optimizes itself to death
+  while reporting success. the manifest makes the coupling readable.
 ```
 
 ## use it
