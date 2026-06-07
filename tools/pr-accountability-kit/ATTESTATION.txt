@@ -1,0 +1,12 @@
+# Copy this file to ATTESTATION.txt and fill every field.
+# Six fields. All required. Structural, not a sales pitch.
+# If you cannot fill a field, the PR is not ready -- that is the point.
+
+constraint_changed:
+load_path_before:
+load_path_after:
+edge_cases_touched:
+-
+out_of_scope:
+-
+failure_mode:

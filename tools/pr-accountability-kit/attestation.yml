@@ -1,0 +1,28 @@
+# attestation.yml -- example GitHub Actions hook. CC0.
+#
+# Add to .github/workflows/ to gate PRs at CI.
+# Blocks merge if any attestation field is blank or out_of_scope is violated.
+#
+# Contributors must copy ATTESTATION.txt, fill all six fields,
+# and commit it to the PR branch before CI passes.
+
+name: PR Attestation Gate
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+jobs:
+  gate:
+    name: Comprehension gate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0          # needed for git diff --name-only main...HEAD
+
+      - name: Run attestation gate
+        working-directory: tools/pr-accountability-kit
+        run: python3 gate.py --file ../../ATTESTATION.txt --base origin/main
+        # exit 0 → PR enters review queue
+        # exit 1 → PR bounced back to contributor, CI blocks merge
