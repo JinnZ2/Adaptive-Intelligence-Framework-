@@ -1,3 +1,5 @@
+> Read first: [READ_ME_THIS_WAY.md](../../READ_ME_THIS_WAY.md).
+
 # pr-accountability-kit
 
 CC0. stdlib only. no deps. no network. no LLM. phone-buildable.
