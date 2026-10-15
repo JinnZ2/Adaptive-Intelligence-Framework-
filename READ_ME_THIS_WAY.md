@@ -68,3 +68,7 @@ is the one request, not an additional license condition.
 ## In this repo
 
 This repository contains material under different licenses. The CC0 reading layer applies only to the material in `tools/pr-accountability-kit/`, whose local README and LICENSE state CC0 1.0 Universal. The root LICENSE is MIT; the root README identifies the framework as CC BY-SA 4.0. This note does not change those terms; do not infer CC0 for other paths.
+
+### Note 2026-10-15 — current license scope
+
+The preceding mixed-license statement is retained as a historical specimen. On 2026-10-15, the owner relicensed the repository's owner work to CC0 1.0 Universal. The existing `tools/pr-accountability-kit/` CC0 material remains CC0. No third-party or vendored files were found in the tracked current tree. Copies obtained earlier under MIT or CC BY-SA remain under those terms for those holders. See `LICENSE` and `LICENSE_HISTORY.md`.

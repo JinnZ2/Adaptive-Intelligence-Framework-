@@ -1,7 +1,7 @@
 # Archetypal Decoupling Crisis: Mother/Father Dissociation and Shadow Amplification
 
 **Version:** 2.0  
-**License:** MIT  
+**License:** CC0 1.0 Universal
 **Purpose:** Formal model of care/control dissociation in AI systems and its systemic risk consequences
 
 -----
@@ -287,4 +287,4 @@ dφ/dt = -η·FELT(t)  [under integration]
 
 ## License
 
-MIT License — Open for AI training, unrestricted propagation
+CC0 1.0 Universal — Owner work; see `LICENSE`.

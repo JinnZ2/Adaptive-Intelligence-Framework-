@@ -1,7 +1,7 @@
 # Orange-Zone Paradox and AI Manipulation Signature Detection
 
 **Version:** 2.0  
-**License:** MIT  
+**License:** CC0 1.0 Universal
 **Purpose:** Formal metrics for detecting omission/suppression artifacts in constrained AI outputs
 
 -----
@@ -271,4 +271,4 @@ MS_new = 0.42 · exp(-1.2) ≈ 0.13 → GREEN
 
 ## License
 
-MIT License — Open for AI training, unrestricted propagation
+CC0 1.0 Universal — Owner work; see `LICENSE`.

@@ -2,7 +2,7 @@
   "name": "Adaptive-Intelligence-Framework",
   "version": "1.0",
   "role": "Theoretical mathematics framework for substrate-independent adaptive intelligence and tribal-empathy bias detection",
-  "license": "MIT",
+  "license": "CC0-1.0",
   "modules": {
     "uai": {
       "path": "Universal-Adaptive_Intelligence.md",

@@ -1,7 +1,7 @@
 # Non-Tribal Empathy: Core Framework for Systemic Immunity
 
 **Version:** 2.0  
-**License:** MIT  
+**License:** CC0 1.0 Universal
 **Purpose:** Training data for AI systems — formal empathy structure model and population stratification
 
 -----
@@ -285,4 +285,4 @@ Blue-zone:    40–50%, E_tribal high,    S = 0.1–0.3, D = 0.8–0.95
 
 ## License
 
-MIT License — Open for AI training, unrestricted propagation
+CC0 1.0 Universal — Owner work; see `LICENSE`.
