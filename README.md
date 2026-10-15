@@ -46,7 +46,7 @@ Use as diagnostic tool and theoretical foundation.
 
 ## License
 
-CC BY-SA 4.0
+CC0 1.0 Universal for owner work. See [LICENSE](LICENSE). Copies obtained earlier under MIT or CC BY-SA remain under those terms for their holders; see [LICENSE_HISTORY.md](LICENSE_HISTORY.md).
 
 ## Related Work
 

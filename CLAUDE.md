@@ -6,13 +6,13 @@
 
 **Stage:** Specification-complete with working implementations. Installable Python package.
 
-**License:** MIT (some components CC BY-SA 4.0)
+**License:** CC0 1.0 Universal for owner work (see `LICENSE` and `LICENSE_HISTORY.md` for scope and earlier grants)
 
 ## Repository Structure
 
 ```
 ├── README.md                           # Project overview
-├── LICENSE                             # MIT license
+├── LICENSE                             # CC0 1.0 Universal legal code (owner work)
 ├── pyproject.toml                      # Python package configuration
 ├── Universal-Adaptive_Intelligence.md  # Core mathematical framework (UAI)
 ├── Core-features.md                    # Central concepts, non-tribal empathy, population analysis

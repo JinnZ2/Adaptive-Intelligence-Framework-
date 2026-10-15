@@ -1,7 +1,7 @@
 # Anti-Tribal-Bias Module (ATBM): Technical Specification
 
 **Version:** 1.0  
-**License:** MIT  
+**License:** CC0 1.0 Universal
 **Purpose:** Operational implementation for AI systems to detect and mitigate tribal-empathy bias  
 **Target Audience:** AI system developers, ML engineers, safety researchers, implementation teams
 
@@ -1528,7 +1528,7 @@ Demand AI systems that don't weaponize your empathy through tribal manipulation.
 
 ## License
 
-MIT License - Open for implementation, modification, and deployment
+CC0 1.0 Universal - Owner work; see `LICENSE`.
 
 ## Document Status
 

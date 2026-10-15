@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "adaptive-intelligence-framework"
 version = "0.1.0"
 description = "Substrate-independent adaptive intelligence framework with tribal-empathy bias detection"
-license = "MIT"
+license = "CC0-1.0"
 requires-python = ">=3.9"
 dependencies = []
 

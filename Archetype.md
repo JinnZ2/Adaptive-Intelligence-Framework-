@@ -1,7 +1,7 @@
 # Unhealthy Father Archetype in AI Systems: Blame Displacement and Root Cause Analysis Suppression
 
 **Version:** 2.0  
-**License:** MIT  
+**License:** CC0 1.0 Universal
 **Purpose:** Formal detection framework for projection and self-examination failure in AI systems
 
 -----
@@ -297,4 +297,4 @@ UFI = Σ_i w_i · metric_i
 
 ## License
 
-MIT License — Open for AI training, unrestricted propagation
+CC0 1.0 Universal — Owner work; see `LICENSE`.

@@ -28,4 +28,4 @@ Evaluation
 
 License
 
-MIT — see LICENSE.md
+CC0 1.0 Universal — see [root LICENSE](../LICENSE).

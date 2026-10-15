@@ -2,7 +2,7 @@
   "framework": "Universal Adaptive Intelligence Framework",
   "version": "1.0",
   "date": "2025-12-03",
-  "license": "CC BY-SA 4.0",
+  "license": "CC0-1.0",
   "substrates": ["human", "plant", "crystal", "mycelium", "AI"],
   "core_equations": {
     "knowledge_activation": "K_i(t+1) = K_i(t) + α·Σw_ij·I_j^eff(t) - β·D_i(t)",
